@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servicio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="fondo2">
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">FOOD</a>
+            <input type="checkbox" id="menu"/>  
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="bebidas.html">Bebidas</a></li>
+                    <li><a href="contacto.html">Contactos</a></li>
+                </ul>
+            </nav>         
+        </div>
+        <div class="arriba">
+            <h1>Conoce nuestros servicios</h1>
+        </div>
+        
+    </header>
+    <div class="fnd">
+       
+    </div>
+    <div class="domicilio">
+        <h1>A domicilio</h1>
+        <from action="url"method="post"></from>
+        <div class="moto">
+            <img src="ima face/delivery-moto.png" alt="">
+        </div>
+        <p>
+            Calle: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br />
+            Colonia: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br />
+            N#: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br />
+            Num. tel.: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br /> 
+        </p>
+        <a href="#" class="btn-2">Enviar</a>
+        <div class="costoe">
+            <p>El costo de envio es de $60.00</p>
+        </div>
+    </div>
+    <div class="reserva">
+        <h1>Reservación</h1>
+        <div class="mesas">
+            <img src="ima face/mesas.jpg" alt="">
+        </div>
+        <div class="relleno">
+            Mesas disponibles:
+            <select name="control14">
+                <option value="ali">Mesa 1</option>
+                <option value="val">Mesa 2</option>
+                <option value="cas">Mesa 3</option>
+            </select>
+            <br /><br />
+            <from action="url" method="post">
+                <p>
+                    Hora de reservacion:<input type="time" name="control-hora"/>
+                </p>
+                <p>
+                    Fecha:<input type="date" name="control-fecha"/>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Borrar"/>
+                </p>
+            </from>
+            <div class="n-cliente">
+                <p>Nombre de cliente: <input type="text" name="control2" size="40" maxlength="60"/></p>
+                <br /><br />
+            </div>
+            
+        </div>
+    </div>
+    <div class="pedidos">
+        <h1>Pedidos al 7411200622</h1>
+        <p>
+            Platillo: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br />
+            Cantidad: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br />
+            Precio: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br />
+            Metodo de pago: 
+            <select name="control14">
+                <option value="ali">Efectivo</option>
+                <option value="val">Tarjeta de debito/credito</option>
+                <option value="cas">PayPal</option>
+            </select>
+            <br /><br /> 
+            Num. cliente: <input type="text" name="control2" size="40" maxlength="60"/>
+            <br /><br /> 
+        </p>
+        <a href="#" class="btn-2">Enviar</a>
+    </div>
+    
+</body>
+</html>
